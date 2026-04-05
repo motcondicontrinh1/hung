@@ -349,11 +349,9 @@
   </footer>
 
   <script>
-    // Hamburger menu toggle
     document.querySelector('.hamburger').addEventListener('click', function () {
       document.querySelector('.nav-links').classList.toggle('open');
     });
-    // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(function (a) {
       a.addEventListener('click', function (e) {
         var target = document.querySelector(this.getAttribute('href'));
